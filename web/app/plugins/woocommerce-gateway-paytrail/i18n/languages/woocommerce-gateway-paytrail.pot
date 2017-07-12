@@ -1,0 +1,159 @@
+# Copyright (C) 2017 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Paytrail Gateway 2.2.0\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/tickets/\n"
+"POT-Creation-Date: 2014-06-15 22:41:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:180
+msgid "Nordea"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:184
+msgid "Osuuspankki"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:188
+msgid "Danske Bank"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:192
+msgid "Ålandsbanken"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:196
+msgid "Handelsbanken"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:200
+msgid "S-Pankki"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:204
+msgid "Aktia"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:208
+msgid "POP Pankki"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:212
+msgid "Säästöpankki"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:216
+msgid "Visa"
+msgstr ""
+
+#: includes/api/class-wc-paytrail-api-payment-response.php:220
+msgid "MasterCard"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:62
+msgid "Paytrail"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:63
+msgid ""
+"Allow customers to securely pay using their preferred payment method with "
+"Paytrail."
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:194
+msgid "via %s"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:217
+msgid "Merchant ID"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:219
+msgid ""
+"Please enter your Paytrail merchant id; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:223
+msgid "Merchant Secret"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:225
+msgid ""
+"Please enter your Paytrail merchant secret; this is needed in order to take "
+"payment."
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:229
+msgid "Use extended info"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:231
+msgid "Enable extended info"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:232
+msgid ""
+"When activated plugin will send extended user info to Paytrail instead of "
+"just sending the amount of payment."
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:236
+msgid "Language"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:238
+msgid "Select the language of the Paytrail pay page"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:241
+msgid "Finnish"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:242
+msgid "English"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:243
+msgid "Swedish"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:279
+msgid "Pay with Paytrail"
+msgstr ""
+
+#: includes/class-wc-gateway-paytrail.php:291
+msgid ""
+"Pay via Paytrail. You can pay with online bank account or with a credit "
+"card."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Paytrail Gateway"
+msgstr ""
+
+#: woocommerce-gateway-paytrail.php:152
+msgid "WooCommerce Paytrail"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/woocommerce-paytrail/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Accept payment in WooCommerce with the Paytrail gateway"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woocommerce.com/"
+msgstr ""
