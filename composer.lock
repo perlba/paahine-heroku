@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "69f4531f075bc8ab34da44919c7dfb22",
+    "content-hash": "f7feab04ffc864a28b446543e4814bad",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -634,16 +634,16 @@
         },
         {
             "name": "jk-testing/wp-env-heroku-jawsdb",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jussikinnula/wp-env-heroku-jawsdb.git",
-                "reference": "ec779f8875fe9aa5686b8e91efbe54fa3ee40d4d"
+                "reference": "c984c95a07cdfc2715800cf4f70b93edb41bc24a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jussikinnula/wp-env-heroku-jawsdb/zipball/ec779f8875fe9aa5686b8e91efbe54fa3ee40d4d",
-                "reference": "ec779f8875fe9aa5686b8e91efbe54fa3ee40d4d",
+                "url": "https://api.github.com/repos/jussikinnula/wp-env-heroku-jawsdb/zipball/c984c95a07cdfc2715800cf4f70b93edb41bc24a",
+                "reference": "c984c95a07cdfc2715800cf4f70b93edb41bc24a",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +672,7 @@
                 "mysql",
                 "wordpress"
             ],
-            "time": "2017-07-12T17:05:37+00:00"
+            "time": "2017-07-12T17:33:37+00:00"
         },
         {
             "name": "johnpbloch/wordpress",

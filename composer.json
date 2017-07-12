@@ -53,7 +53,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "ext-redis": "*",
     "tillkruss/redis-object-cache": "dev-frc",
-    "jk-testing/wp-env-heroku-jawsdb": "1.0.1",
+    "jk-testing/wp-env-heroku-jawsdb": "1.0.2",
     "frc/wp-env-heroku-redis": "~1.0.0",
     "frc/wp-env-heroku-sendgrid": "~1.0.0",
     "frc/wp-env-heroku-amazon-aws": "~1.1.0",
