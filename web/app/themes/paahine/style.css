@@ -1,0 +1,419 @@
+/*
+ Theme Name:   Paahine
+ Description:  Paahine (lapsi teemalle: dazzling)
+ Author:       Jussi Kinnula
+ Author URI:   https://github.com/jkinnula
+ Template:     dazzling
+ Version:      1.4.3
+*/
+
+body {
+	font-family: "Open Sans";
+	font-size: 1.5em;
+}
+
+.navbar > .container .navbar-brand {
+	padding: 4px;
+	margin: 4px 0 0 0;
+}
+
+.navbar > .container .navbar-brand svg {
+	width: 100%;
+	max-width: 400px;
+}
+
+@media (max-width: 400px) {
+	.navbar > .container .navbar-brand {
+		width: calc(100% - 66px);
+		margin: 0;
+		padding: 6px 0 0 0;
+	}
+
+	.navbar > .container .navbar-brand svg {
+		width: 100%;
+	}
+}
+
+.navbar .navbar-toggle {
+	margin: 10px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+	background-color: white !important;
+}
+
+.navbar {
+	border: 0;
+	border-radius: 0 !important;
+}
+
+
+/*.flexslider .flex-caption {
+	visibility: hidden;
+}*/
+
+.btn.btn-default {
+	color: black;
+}
+
+mark.count {
+	display: none;
+}
+
+.woocommerce .woocommerce-breadcrumb a:after {
+	content: " →";
+}
+
+#footer-area {
+	background-color: white !important;
+}
+
+
+
+.woocommerce .product-categories .cat-item {
+	display: none;
+}
+
+.woocommerce .product-categories .current-cat-parent {
+	display: block;
+}
+
+.woocommerce .product-categories .current-cat-parent .cat-item {
+	display: block;
+}
+
+@media (min-width: 401px) {
+	.nav > li.dropdown.open {
+		position: static;
+	}
+
+	.nav > li.dropdown.open .dropdown-toggle {
+		color: black;
+		background-color: yellow !important;
+	}
+
+	.nav > li.dropdown.open .dropdown-menu {
+		display: table;
+		width: 100%;
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+		border-top: 5px solid yellow;
+		border-bottom: 1px solid black;
+		border-left: 0;
+		border-right: 0;
+		background-color: rgba(255, 255, 255, 0.7) !important;
+	}
+
+	.dropdown-menu > li {
+		display: inline-block;
+		width: 210px;
+	}
+
+	.dropdown-menu > li a {
+		padding: 10px;
+		white-space: nowrap;
+	    text-overflow: ellipsis;
+	    width: 200px;
+	    display: block;
+	    overflow: hidden;
+	}
+
+	.dropdown-menu > li a:hover {
+		color: black !important;
+		background-color: rgba(0, 0, 0, 0.3) !important;
+	}	
+}
+
+@media (max-width: 400px) {
+	.nav > li.dropdown.open .dropdown-menu {
+		background-color: white;
+	}
+	.dropdown-menu > li a {
+		color: black;
+	}
+	#content .pull-left {
+		float: none;
+	}
+	#content #secondary {
+		display: none;
+	}
+	.page-title {
+		font-size: 2em;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		clear: none;
+		float: none;
+		font-size: 1.4em;
+		margin-bottom: 2em;
+	}
+	.add_to_cart_btn {
+		font-size: 1.2em;
+	}
+	.woocommerce .woocommerce-breadcrumb {
+		margin-top: 1em;
+		line-height: 1.5em;
+	}
+	.woocommerce .woocommerce-breadcrumb a {
+		display: block;
+		font-size: 1.2em;
+		text-decoration: none;
+		color: black;
+		background-color: #81d742;
+		padding: 6px 12px;
+		margin: 0 0 5px 0;
+		border-radius: 6px 6px 6px 6px;
+		-moz-border-radius: 6px 6px 6px 6px;
+		-webkit-border-radius: 6px 6px 6px 6px;
+		transition: all 0.2s;
+	}
+	.woocommerce .woocommerce-breadcrumb a:active, .woocommerce .woocommerce-breadcrumb a:hover {
+		background-color: #dd9933;
+		text-decoration: none;
+	}
+}
+
+#wcrgsk-carrot-extras-box {
+	margin-bottom: 1em;
+}
+
+.carrot-label {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+.carrot-radio-container {
+}
+
+.carrot-radio-container input[type="radio"] {
+	display: none;
+}
+
+.carrot-radio-container label {
+    display: inline-block;
+}
+
+.carrot-radio-container label:hover {
+	background-color: #a46497;
+	transition: all 0.2s ease-in-out;
+}
+
+.carrot-radio-container input[type="radio"] + label {
+	padding: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	border: 1px solid transparent;
+}
+
+.carrot-radio-container input[type="radio"]:checked + label {
+	border-color: #a46497;
+}
+
+.wcrgsk-carrot-freelabel {
+	display: none;
+}
+
+
+
+.wcrgsk-carrot-field-color {
+	text-align: center;
+}
+.wcrgsk-carrot-field-color .carrot-label {
+	text-align: left;
+}
+.wcrgsk-carrot-field-color .carrot-radio-container {
+	display: inline-block;
+	margin: 0 0 0 1px;
+	padding: 0;
+}
+.wcrgsk-carrot-field-color .carrot-radio-container label {
+	padding: 1px;
+	line-height: 1;
+	font-size: 0;
+	color: transparent;
+}
+.wcrgsk-carrot-field-color .carrot-radio-container label .carrot-label-color-box {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+}
+.wcrgsk-carrot-field-color .red .carrot-label-color-box {
+    background-color: #ff0000;
+}
+.wcrgsk-carrot-field-color .black .carrot-label-color-box {
+    background-color: #000000;
+}
+.wcrgsk-carrot-field-color .white .carrot-label-color-box {
+    background-color: #ffffff;
+}
+.wcrgsk-carrot-field-color .blue .carrot-label-color-box {
+    background-color: #0000ff;
+}
+.wcrgsk-carrot-field-color .orange .carrot-label-color-box {
+    background-color: #ff9900;
+}
+.wcrgsk-carrot-field-color .yellow .carrot-label-color-box {
+    background-color: #ffff00;
+}
+.wcrgsk-carrot-field-color .silver .carrot-label-color-box {
+    background-color: #cccccc;
+}
+.wcrgsk-carrot-field-color .lime .carrot-label-color-box {
+    background-color: #00ff00;
+}
+
+
+.wcrgsk-carrot-field-font {
+	text-align: center;
+}
+.wcrgsk-carrot-field-font .carrot-label {
+	text-align: left;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 1px;
+	padding: 0;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label {
+	color: gray;
+	font-size: 15px;
+	padding: 5px;
+	line-height: 1;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}	
+.wcrgsk-carrot-field-font .carrot-radio-container label.adlib-bt {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/adlib-bt.png");
+    width: 125px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.arial-black {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/arial-black.png");
+    width: 160px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.balloon-xbd-bt {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/balloon-xbd-bt.png");
+    width: 179px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.bankgothic-md-bt {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/bankgothic-md-bt.png");
+    width: 206px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.blippo-blk-bt {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/blippo-blk-bt.png");
+    width: 156px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.brody-d {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/brody-d.png");
+    width: 92px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.century-gothic {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/century-gothic.png");
+    width: 191px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.clubmf {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/clubmf.png");
+    width: 118px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.dombold-bt {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/dombold-bt.png");
+    width: 116px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.fixedsys {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/fixedsys.png");
+    width: 116px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.impact {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/impact.png");
+    width: 87px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.impress-bt {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/impress-bt.png");
+    width: 128px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.nordic {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/nordic.png");
+    width: 100px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.one-stroke-script-let {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/one-stroke-script-let.png");
+    width: 193px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.quick {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/quick.png");
+    width: 138px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.stencil {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/stencil.png");
+    width: 122px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.times-scr-bol {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/times-scr-bol.png");
+    width: 168px;
+    height: 31px;
+}
+.wcrgsk-carrot-field-font .carrot-radio-container label.uranium {
+    color: transparent;
+    background-image: url("/wp-content/themes/paahine/assets/img/uranium.png");
+    width: 146px;
+    height: 31px;
+}
+
+
+
+.wcrgsk-carrot-field-size {
+	text-align: center;
+}
+.wcrgsk-carrot-field-size .carrot-radio-container {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 0 1px;
+	padding: 0;
+}
+.wcrgsk-carrot-field-size .carrot-radio-container label {
+	width: 3em;
+}	
