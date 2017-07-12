@@ -59,7 +59,9 @@
     "frc/wp-env-heroku-amazon-aws": "~1.1.0",
     "frc/wp-env-heroku-custom-php-constant": "~1.0.1",
     "frc/wp-harness": "^1.0",
-    "humanmade/s3-uploads": "^1.1"
+    "humanmade/s3-uploads": "^1.1",
+    "woocommerce/woocommerce": "^3.1",
+    "digitoimistodude/woothemes-updater": "^1.7"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "dev-master",
