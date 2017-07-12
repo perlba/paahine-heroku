@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7feab04ffc864a28b446543e4814bad",
+    "content-hash": "2a0d1f5e23c516ab34a748d21cc721ce",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -634,16 +634,16 @@
         },
         {
             "name": "jk-testing/wp-env-heroku-jawsdb",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jussikinnula/wp-env-heroku-jawsdb.git",
-                "reference": "c984c95a07cdfc2715800cf4f70b93edb41bc24a"
+                "reference": "d1551ee051c9a9e27366fd71e78b947413837122"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jussikinnula/wp-env-heroku-jawsdb/zipball/c984c95a07cdfc2715800cf4f70b93edb41bc24a",
-                "reference": "c984c95a07cdfc2715800cf4f70b93edb41bc24a",
+                "url": "https://api.github.com/repos/jussikinnula/wp-env-heroku-jawsdb/zipball/d1551ee051c9a9e27366fd71e78b947413837122",
+                "reference": "d1551ee051c9a9e27366fd71e78b947413837122",
                 "shasum": ""
             },
             "require": {
@@ -662,17 +662,18 @@
             "authors": [
                 {
                     "name": "Jussi Kinnula",
-                    "email": "jussi.kinnula@frantic.com"
+                    "email": "jussi.kinnula@gmail.com"
                 }
             ],
             "description": "Export Heroku jawsdb addon configuration for WordPress.",
             "keywords": [
                 "JawsDB",
+                "MariDB",
                 "heroku",
                 "mysql",
                 "wordpress"
             ],
-            "time": "2017-07-12T17:33:37+00:00"
+            "time": "2017-07-12T17:41:38+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
